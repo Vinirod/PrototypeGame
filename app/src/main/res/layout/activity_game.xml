@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:id="@+id/d11"
+                android:background="@drawable/dica"
+                />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:id="@+id/ed12"
+                android:background="@drawable/esquerdabaixo"
+                android:gravity="center"
+                android:maxLength="1"
+
+                />
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:background="@drawable/dica"
+                android:id="@+id/d13"
+                />
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:background="@drawable/dica"
+                android:id="@+id/d14"
+                />
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:id="@+id/d15"
+                android:background="@drawable/dica"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:background="@drawable/direitabaixo"
+                android:id="@+id/ed21"
+                android:gravity="center"
+                android:maxLength="1"
+                />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:background="@drawable/fundoed"
+                android:id="@+id/ed22"
+                android:gravity="center"
+                android:maxLength="1"
+                />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:background="@drawable/fundoed"
+                android:id="@+id/ed23"
+                android:gravity="center"
+                android:maxLength="1"
+                />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:background="@drawable/baixo"
+                android:id="@+id/ed24"
+                android:gravity="center"
+                android:maxLength="1"
+                />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:background="@drawable/baixo"
+                android:id="@+id/ed25"
+                android:gravity="center"
+                android:maxLength="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:id="@+id/d31"
+                android:background="@drawable/dica"
+                />
+
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:background="@drawable/direita"
+                android:id="@+id/ed32"
+                android:gravity="center"
+                android:maxLength="1"
+
+                />
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:id="@+id/d33"
+                android:background="@drawable/dica"
+                />
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:id="@+id/d34"
+                android:background="@drawable/dica"
+                />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:id="@+id/ed35"
+                android:background="@drawable/fundoed"
+                android:gravity="center"
+                android:maxLength="1"
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:background="@drawable/dica"
+                android:id="@+id/d41"
+                />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:id="@+id/ed42"
+                android:background="@drawable/direita"
+                android:gravity="center"
+                android:maxLength="1"
+                />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:background="@drawable/baixo"
+                android:id="@+id/ed43"
+                android:gravity="center"
+                android:maxLength="1"
+                />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:id="@+id/ed44"
+                android:background="@drawable/baixo"
+                android:gravity="center"
+                android:maxLength="1"
+                />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:id="@+id/ed45"
+                android:background="@drawable/fundoed"
+                android:gravity="center"
+                android:maxLength="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:background="@drawable/dica"
+                android:id="@+id/d51"
+                />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:id="@+id/ed52"
+                android:background="@drawable/fundoed"
+                android:gravity="center"
+                android:maxLength="1"
+                />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:id="@+id/ed53"
+                android:background="@drawable/fundoed"
+                android:gravity="center"
+                android:maxLength="1"
+                />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:id="@+id/ed54"
+                android:background="@drawable/fundoed"
+                android:gravity="center"
+                android:maxLength="1"
+                />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:id="@+id/ed55"
+                android:background="@drawable/fundoed"
+                android:gravity="center"
+                android:maxLength="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:background="@drawable/baixo"
+                android:id="@+id/ed61"
+                android:gravity="center"
+                android:maxLength="1"
+                />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:id="@+id/ed62"
+                android:background="@drawable/fundoed"
+                android:gravity="center"
+                android:maxLength="1"
+                />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:background="@drawable/fundoed"
+                android:id="@+id/ed63"
+                android:gravity="center"
+                android:maxLength="1"
+                />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:id="@+id/ed64"
+                android:background="@drawable/fundoed"
+                android:gravity="center"
+                android:maxLength="1"
+                />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:id="@+id/ed65"
+                android:background="@drawable/fundoed"
+                android:gravity="center"
+                android:maxLength="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:background="@drawable/fundoed"
+                android:id="@+id/ed71"
+                android:gravity="center"
+                android:maxLength="1"
+                />
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:id="@+id/d72"
+                android:background="@drawable/dica"
+                />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:background="@drawable/direita"
+                android:id="@+id/ed73"
+                android:gravity="center"
+                android:maxLength="1"
+                />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:id="@+id/ed74"
+                android:background="@drawable/fundoed"
+                android:gravity="center"
+                android:maxLength="1"
+                />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:tag="quadrado2"
+                android:id="@+id/ed75"
+                android:background="@drawable/fundoed"
+                android:gravity="center"
+                android:maxLength="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="Concluir"
+                android:id="@+id/completo"
+                android:background="#00FF7F"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                 "
+                />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="Abandonar"
+                android:id="@+id/abandonar"
+                android:background="#00FF7F"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:text="                                                                                                        Nota: Esse tabuleiro está relacionado com o idioma inglês, com a finalidade de trazer conhecimentos de novas palavras em inglês."
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:text="                                                                                                             Copyright © 2016 Todos direitos reservados à Vinícius Rodrigues"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:background="#025417" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+

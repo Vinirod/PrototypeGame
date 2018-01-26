@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.vinicius.GuiaJogo">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:text="INTRODUÇÃO"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="normal|italic"
+        android:text="DiretasTAB é um jogo de palavra-cruzadas, e é destinado exclusivamente a quem deseja ganhar conhecimentos se divertindo. Esse jogo foi desenvolvido por Vinícius Rodrigues"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:text="COMO JOGAR?"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="normal|italic"
+            android:text="Primeiramente no menu inicial, vá em jogar, e escolha um dos tabuleiros. Contudo, aparecererá um tabuleiro similar ao que está embaixo na imagem"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="800dp"
+            android:src="@drawable/tabuleiro"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="normal|italic"
+            android:text="Obviamente, você já estará no ambiente de jogo, sendo assim, tocando em qualquer um dos botões que está escrito (dica), você poderá preencher as lacunas do tabuleiro. O cruzamento das palavras umas com as outras pode facilitar também o seu raciocínio. Você pode assimilar a dica com o local de preenchimento para onde a seta indica, a exemplo da imagem abaixo"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="800dp"
+            android:src="@drawable/preenchimento"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="normal|italic"
+            android:text="Portanto, quando todas as lacunas estiverem preechidas, toque no botão (concluir) para ver se todas lacunas estão coerentes. Só ressaltaando que existe também o botão (abandonar) partida"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                                                                                                             Copyright © 2016 Todos direitos reservados à Vinícius Rodrigues"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="#025417" />
+
+    </LinearLayout>
+</ScrollView>
